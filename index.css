@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+    background-color: #ccc;
+    /* color: #ff0000;
+    color: #008000; */
+}
+
+.rounded-full {
+    border-radius: 50%;
+}
+
+.arms {
+    top: 52px;
+}
