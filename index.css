@@ -8,9 +8,28 @@ body {
 }
 
 .rounded-full {
-    border-radius: 50%;
+    border-radius: 110%;
 }
 
 .arms {
-    top: 52px;
+    top: 44px;
+}
+
+.red-after::after {
+    content: '';
+    height: 100%;
+    width: 3px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #f00000;
+}
+
+.f-arrow {
+    transform: translate(-50%, -50%) rotateZ(36deg);
+}
+
+.s-arrow {
+    transform: translate(-50%, -50%) rotateZ(-36deg);
 }
