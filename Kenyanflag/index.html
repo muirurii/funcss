@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tailwind.css">
+    <title>Kenya</title>
+</head>
+
+<body class="container min-h-screen flex items-center justify-center">
+    <div class="relative">
+        <div class="w-96 h-20 bg-black"></div>
+        <div class="w-96 h-4 bg-white "></div>
+        <div class="w-96 h-20 bg-red "></div>
+        <div class="w-96 h-4 bg-white "></div>
+        <div class="w-96 h-20 bg-green "></div>
+
+        <!-- eclipse -->
+        <div class="absolute z-20 rounded-full w-24 h-48 bg-red top-10 left-36 overflow-hidden">
+            <div>
+                <div class="h-24 w-6 bg-black rounded-full absolute top-1/2 transform -translate-y-1/2 -left-3"></div>
+                <div class="h-24 w-6 bg-black rounded-full absolute top-1/2 transform -translate-y-1/2 -right-3"></div>
+            </div>
+            <div>
+                <div class="absolute h-20 w-6 rounded-full top-1 left-1/2 -translate-x-1/2 bg-white z-30 red-after"></div>
+                <div class="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 h-5 w-5 bg-white rounded-full"></div>
+                <div class="absolute h-20 w-5 rounded-full bottom-1 left-1/2 -translate-x-1/2 bg-white z-30 red-after"></div>
+            </div>
+        </div>
+
+        <!-- arrows -->
+        <div>
+            <div class="absolute -z-5 h-52 w-1.5 border-x border-y border-black border-solid rounded-sm left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 bg-white f-arrow"></div>
+            <div class="absolute -z-5 h-52 w-1.5 border-x border-y border-black border-solid rounded-sm left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 bg-white s-arrow"></div>
+        </div>
+    </div>
+</body>
+
+</html>
